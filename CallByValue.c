@@ -1,0 +1,12 @@
+#include<stdio.h>
+int change(int a){
+    a = 50;
+    return a;
+}
+int main(){
+    int a =10;
+    change(a);
+    printf("%d",a);
+
+    return 0;
+}
